@@ -1,2 +1,2 @@
 # SQL
- Bases de dados em SQL server management. 
+Exercícios de aprendizagem de bases de dados em SQL server management. 
