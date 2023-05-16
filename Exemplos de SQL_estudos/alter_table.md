@@ -20,7 +20,7 @@ alter table nome_da_tabela add nome_da_coluna tipo_de_dado [OPÇÕES];
 
 Por exemplo, se se quisesse adicionar uma nova coluna chamada "idade" à tabela "clientes", com o tipo de dado INT, a sintaxe seria a seguinte:
 
-alter table clientes add idade INT;
+**alter table** clientes **add** idade **INT**;
 
 # SINTAXE MODIFY COLUMN
 **MODIFY COLUMN**: esta opção é usada para alterar a definição de uma coluna existente, como seu tipo de dados ou comprimento. A sintaxe básica é a seguinte:
