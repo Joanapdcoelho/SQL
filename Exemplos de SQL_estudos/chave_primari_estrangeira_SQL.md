@@ -1,9 +1,9 @@
 # SQL - CHAVE PRIMÁRIA E ESTRANGEIRA
 # CHAVE PRIMÁRIA
-Uma chave primária é uma coluna ou um conjunto de colunas que identificam de forma única cada registro em uma tabela. A chave primária é usada para garantir a integridade dos dados e a consistência das informações armazenadas na tabela. A chave primária também é usada para criar relacionamentos entre tabelas usando chaves estrangeiras.
+Uma chave primária é uma coluna ou um conjunto de colunas que **identificam de forma única cada registo duma tabela**. A chave primária é usada para garantir a integridade dos dados e a consistência das informações armazenadas na tabela. A chave primária também é usada para criar relacionamentos entre tabelas usando chaves estrangeiras.
 
 ## COMO CRIAR CHAVE PRIMÁRIA NO SQL SERVER
-Para criar uma chave primária em uma tabela no SQL Server, você pode usar a cláusula "PRIMARY KEY" após a definição da coluna desejada. Por exemplo, para criar uma tabela "clientes" com uma coluna "id" como chave primária.
+Para criar uma chave primária numa tabela no SQL Server, você pode usar a cláusula **"PRIMARY KEY"** após a definição da coluna desejada. Por exemplo, para criar uma tabela "clientes" com uma coluna "id" como chave primária.
 
 # EXEMPLO DE SCRIPT DE CRIAÇÃO DE TABELA COM CHAVE PRIMARIA
 CREATE TABLE clientes (
@@ -32,9 +32,9 @@ Uma restrição de chave estrangeira indica que os valores de uma coluna ou grup
 Pode-se entender que uma chave estrangeira mantém a "integridade referencial".
 
 # CRIAR CHAVE ESTRANGEIRA EM SQL SERVER
-Para criar uma chave estrangeira numa tabela no SQL Server, é preciso criar primeiro uma chave primária na tabela referenciada. Em seguida, pode-se usar a cláusula "FOREIGN KEY" na tabela que contém a chave estrangeira para referenciar a chave primária da tabela referenciada. 
+Para criar uma chave estrangeira numa tabela no SQL Server, é preciso criar primeiro uma chave primária na tabela referenciada. Em seguida, pode-se usar a cláusula **"FOREIGN KEY"** na tabela que contém a chave estrangeira para referenciar a chave primária da tabela referenciada. 
 
-Para criar uma constraint de chave estrangeira num banco de dados SQL, você precisa seguir os seguintes passos:
+Para criar uma constraint de chave estrangeira numa bases de dados SQL, é preciso seguir os seguintes passos:
 
 1. Crie uma tabela que será referenciada pela chave estrangeira (tabela pai).
 2. Crie uma segunda tabela que terá a chave estrangeira (tabela filho).
